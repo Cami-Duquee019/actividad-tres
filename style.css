@@ -187,3 +187,62 @@ a {
     font-size: 15px;
     line-height: 1.4;
 }
+.footer {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0a09;
+}
+
+.footer-text {
+    color: #78716c;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+
+    .navigation-list {
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .main-section {
+        padding: 70px 5%;
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+
+    .right-column {
+        justify-content: flex-start;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .header {
+        padding: 0 5%;
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .main-section {
+        padding: 50px 5%;
+    }
+
+    .main-image {
+        height: 220px;
+    }
+
+    .hero-title {
+        font-size: 38px;
+    }
+    

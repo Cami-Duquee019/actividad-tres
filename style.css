@@ -100,7 +100,7 @@ a {
 }
 
 .hero-content {
-    padding-top: 35px;
+    padding-top: 50px;
 }
 
 .hero-title {
@@ -193,11 +193,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0c0a09;
+    background-color: #c65116;
 }
 
 .footer-text {
-    color: #78716c;
+    color: #f7f5f2;
     font-size: 14px;
 }
 
